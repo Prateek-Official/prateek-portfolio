@@ -1,107 +1,109 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 /* HEADER */
-.header-container{
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid black;
-    /* margin: 2px; */
-    background-color: black;
-    color: white;
-    align-items: center;
-    padding: 0 6rem;
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  /* margin: 2px; */
+  background-color: black;
+  color: white;
+  align-items: center;
+  padding: 0 6rem;
 }
 
-.header-items{
-    display: flex;
-    list-style: none;
-    gap: 16px;
-    font-size: 20px;
+.header-items {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+  font-size: 20px;
 }
 
-.header-items li{
-    cursor: pointer;
+.header-items li {
+  cursor: pointer;
 }
 
-.header-items li:hover{
-    color: red;
+.header-items li:hover {
+  color: red;
 }
 
-.logo{
-    height: 120px;
+.logo {
+  height: 120px;
 }
 
 /* 1st PAGE */
-.name-container{
-    color: white;
-    height: 100vh;
-    /* border: 1px solid white; */
-    background-image: url('C:\Users\prate\OneDrive\Desktop\React Projects\Portfolio\src\assets\b-img4.jpg');
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 80px;
+.name-container {
+  color: white;
+  height: 100vh;
+  /* border: 1px solid white; */
+  background-image: url("C:\Users\prate\OneDrive\Desktop\React Projects\Portfolio\src\assets\b-img4.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 80px;
 }
 
-.skills-container{
-    /* border: 1px solid white; */
-    width: 700px;
-    height: 45px;
-    font-size: 40px;
-    font-weight: 600;
-    display: inline-flex;
-    align-items: center;
+.skills-container {
+  /* border: 1px solid white; */
+  width: 700px;
+  height: 45px;
+  font-size: 40px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
 }
 
-.skills{
-    display: inline-flex;
-    color: crimson;
-    align-items: center;
-    margin-left: 8px;
+.skills {
+  display: inline-flex;
+  color: crimson;
+  align-items: center;
+  margin-left: 8px;
 }
 
 /* .name-container div{
     border: 1px solid white;
 } */
 
-.namaste{
-    font-size: 28px;
-    font-weight: 500;
+.namaste {
+  font-size: 28px;
+  font-weight: 500;
 }
 
-.name{
-    font-size: 80px;
+.name {
+  font-size: 80px;
 }
 
 /*------------ HIRE AND CONTACT BUTTONS ----------*/
-.btns{
-    cursor: pointer;
-    color: white;
-    background-color: crimson;
-    padding: 12px 20px;
-    border: 2px solid crimson;
-    border-radius: 10px; 
-    font-size: 1.4rem;
-    margin-top: 1.5rem;
+.btns {
+  cursor: pointer;
+  color: white;
+  background-color: crimson;
+  padding: 12px 20px;
+  border: 2px solid crimson;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
 }
 
-.skills::after{
-    content: "";
-    display: inline-flex;
-    width: 2px;
-    height: 40px;
-    background-color: crimson;
+.skills::after {
+  content: "";
+  display: inline-flex;
+  width: 2px;
+  height: 40px;
+  background-color: crimson;
 }
 
-.hire-btn{
-    margin-left: 1rem;
+.hire-btn {
+  margin-left: 1rem;
 }
 
-.btns:hover{
-    background-color: black;
+.btns:hover {
+  background-color: black;
 }
